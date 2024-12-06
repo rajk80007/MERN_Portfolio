@@ -8,6 +8,11 @@ const app = express();
 // eslint-disable-next-line no-undef
 const PORT = process.env.PORT || 5000;
 
+// eslint-disable-next-line no-undef
+const mongoURI = process.env.MONGO_URI;
+
+console.log(mongoURI);
+
 app.use(cors({ origin: '*' })); // Enable CORS
 app.use(json()); // Parse JSON bodies
 

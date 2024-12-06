@@ -2,7 +2,7 @@
 
 const Hero = () => {
   return (
-    <header className="bg-cover bg-center h-screen relative" style={{ backgroundImage: "url('herobg4.jpg')" }}>
+    <header className="bg-cover bg-center h-screen relative" style={{ backgroundImage: "url('images/herobg4.jpg')" }}>
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 text-center text-white flex flex-col justify-center items-center h-full">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I&apos;m Rajesh Kumar</h1>
